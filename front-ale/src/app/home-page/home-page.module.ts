@@ -1,19 +1,30 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
+import { AsyncPipe, CommonModule } from '@angular/common';
 import { HomePageRoutingModule } from './home-page-routing.module';
 import { ConfigComponent } from './config/config.component';
-import { HomePageComponent } from './home-page.component';
-
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     ConfigComponent,
-    HomePageComponent
+    HomeComponent,
   ],
   imports: [
     CommonModule,
-    HomePageRoutingModule
+    HomePageRoutingModule, 
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatAutocompleteModule,
+    ReactiveFormsModule,
+    AsyncPipe,
   ]
 })
-export class HomePageModule { }
+export class HomePageModule {}
