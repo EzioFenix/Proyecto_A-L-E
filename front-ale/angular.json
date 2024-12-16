@@ -49,7 +49,6 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "Proyecto_A-L-E",
               "budgets": [
                 {
                   "type": "initial",
