@@ -10,6 +10,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
+import { LanguageService } from '../database/language.service';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,9 @@ import { HomeComponent } from './home/home.component';
     MatAutocompleteModule,
     ReactiveFormsModule,
     AsyncPipe,
-  ]
+  ],
+  providers: [
+    LanguageService,
+  ],
 })
 export class HomePageModule {}

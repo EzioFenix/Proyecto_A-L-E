@@ -6,6 +6,7 @@ import {AsyncPipe} from '@angular/common';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { LanguageService } from '../../database/language.service';
 
 @Component({
   selector: 'app-home',
@@ -16,9 +17,20 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 })
 export class HomeComponent implements OnInit {
     myControl = new FormControl('');
-    options: string[] = ['Inglés', 'Español', 'Francés', 'Alemán', 'Japonés'];
+    options: string[] = []
+    //['Inglés', 'Español', 'Francés', 'Alemán', 'Japonés'];
 
     filteredOptions!: Observable<string[]>;
+
+
+    constructor(
+      private languageService: LanguageService
+    ) { 
+
+      this.languageService.getAllLanguages().then((data) => {
+        this.options = data;
+      });
+    }
   
     ngOnInit() {
       this.filteredOptions = this.myControl.valueChanges.pipe(

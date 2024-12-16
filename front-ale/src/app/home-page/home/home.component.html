@@ -1,17 +1,23 @@
-<form class="example-form">
-    <mat-form-field class="example-full-width">
-      <mat-label>Selecciona uno</mat-label>
-      <input type="text"
-             placeholder=""
-             aria-label=""
-             matInput
-             [formControl]="myControl"
-             [matAutocomplete]="auto">
-      <mat-autocomplete #auto="matAutocomplete">
-        @for (option of filteredOptions | async; track option) {
-          <mat-option [value]="option">{{option}}</mat-option>
-        }
-      </mat-autocomplete>
-    </mat-form-field>
-  </form>
+<div class="container ">
+    <div class="d-flex justify-content-center pt-5">
+      <div class="col-md-8">
+        <form>
+          <mat-form-field class="">
+            <mat-label>Selecciona uno (ingles)</mat-label>
+            <input type="text"
+                   placeholder=""
+                   aria-label=""
+                   matInput
+                   [formControl]="myControl"
+                   [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+              <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                {{ option }}
+              </mat-option>
+            </mat-autocomplete>
+          </mat-form-field>
+        </form>
+      </div>
+    </div>
+  </div>
   
