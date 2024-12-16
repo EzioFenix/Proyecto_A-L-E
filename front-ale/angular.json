@@ -49,6 +49,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "Proyecto_A-L-E",
               "budgets": [
                 {
                   "type": "initial",
@@ -107,6 +108,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

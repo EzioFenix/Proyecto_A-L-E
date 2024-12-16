@@ -1,8 +1,8 @@
 {
-  "name": "Proyecto A.L.E.",
-  "short_name": "Proyecto A.L.E.",
-  "theme_color": "#24222d",
-  "background_color": "#24222d",
+  "name": "front-ale",
+  "short_name": "front-ale",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
