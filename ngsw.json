@@ -1,0 +1,95 @@
+{
+  "configVersion": 1,
+  "timestamp": 1734382738972,
+  "index": "https://eziofenix.github.io/Proyecto_A-L-E/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://eziofenix.github.io/Proyecto_A-L-E/chunk-3T4VHXPG.js",
+        "https://eziofenix.github.io/Proyecto_A-L-E/chunk-JW3ZLXLS.js",
+        "https://eziofenix.github.io/Proyecto_A-L-E/chunk-SD56JE62.js",
+        "https://eziofenix.github.io/Proyecto_A-L-E/chunk-VNT2XR6A.js",
+        "https://eziofenix.github.io/Proyecto_A-L-E/favicon.ico",
+        "https://eziofenix.github.io/Proyecto_A-L-E/index.html",
+        "https://eziofenix.github.io/Proyecto_A-L-E/main-PWJOCAQZ.js",
+        "https://eziofenix.github.io/Proyecto_A-L-E/manifest.webmanifest",
+        "https://eziofenix.github.io/Proyecto_A-L-E/polyfills-FFHMD2TL.js",
+        "https://eziofenix.github.io/Proyecto_A-L-E/styles-MSH5GLV2.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://eziofenix.github.io/Proyecto_A-L-E/Icono-app/icon-alternative.png",
+        "https://eziofenix.github.io/Proyecto_A-L-E/Icono-app/icon-alternative.webp",
+        "https://eziofenix.github.io/Proyecto_A-L-E/Icono-app/icon.png",
+        "https://eziofenix.github.io/Proyecto_A-L-E/Icono-app/icon.webp",
+        "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-128x128.png",
+        "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-144x144.png",
+        "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-152x152.png",
+        "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-192x192.png",
+        "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-384x384.png",
+        "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-512x512.png",
+        "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-72x72.png",
+        "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://eziofenix.github.io/Proyecto_A-L-E/Icono-app/icon-alternative.png": "d2ee5395df45173739801a8dd88fdd24f0c001c7",
+    "https://eziofenix.github.io/Proyecto_A-L-E/Icono-app/icon-alternative.webp": "a91e97ad3e04956d8d3d8f4b92a872c79fbceb21",
+    "https://eziofenix.github.io/Proyecto_A-L-E/Icono-app/icon.png": "b91538e014e98e5ae4801bd7bb2c489db0bae492",
+    "https://eziofenix.github.io/Proyecto_A-L-E/Icono-app/icon.webp": "0872438f37fa92403a272d5505b381c47946fb0d",
+    "https://eziofenix.github.io/Proyecto_A-L-E/chunk-3T4VHXPG.js": "bbe6968abe66f4888630be7d1ce3c5dd631c806d",
+    "https://eziofenix.github.io/Proyecto_A-L-E/chunk-JW3ZLXLS.js": "e6518c1fe64abf52afef9546f401ccc914b9e8be",
+    "https://eziofenix.github.io/Proyecto_A-L-E/chunk-SD56JE62.js": "35cc1f36b94ade0f2ecf21abcfeefab370a10c83",
+    "https://eziofenix.github.io/Proyecto_A-L-E/chunk-VNT2XR6A.js": "a279cff38b9e6ec44b8f5d791daf4fdd5b2e4485",
+    "https://eziofenix.github.io/Proyecto_A-L-E/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-128x128.png": "046a829350bceb8942aac47a97192eb22f78c361",
+    "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-144x144.png": "1ccdddc4d877177f5b82e94f5f0e160282a2ea59",
+    "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-152x152.png": "5ca278f17a360007446509c425d4d020ec28300a",
+    "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-192x192.png": "d4b4901aba58d431d9bc694829a8592092027ec9",
+    "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-384x384.png": "d2d9ec964cd3a4456bec789ab39a241300844542",
+    "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-512x512.png": "a4174586f63e48e693f34dcec8ca91dcbb6feb41",
+    "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-72x72.png": "611b653aefab57c4188b508ed8feee439e5259bd",
+    "https://eziofenix.github.io/Proyecto_A-L-E/icons/icon-96x96.png": "c793e8372320c374dbc8d29b6c8f5323d0dbb30a",
+    "https://eziofenix.github.io/Proyecto_A-L-E/index.html": "3915014bc5e5a60518ad88415ef68d0f5fcdd73f",
+    "https://eziofenix.github.io/Proyecto_A-L-E/main-PWJOCAQZ.js": "fa80e9df513d9640d7ccc46e69e515af1ecd3b76",
+    "https://eziofenix.github.io/Proyecto_A-L-E/manifest.webmanifest": "11b9219e70ed7abee2735dce8da4eda567711d84",
+    "https://eziofenix.github.io/Proyecto_A-L-E/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "https://eziofenix.github.io/Proyecto_A-L-E/styles-MSH5GLV2.css": "9e9a78c8ff8a1a660cc8cde21c1d84aae7eac729"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
